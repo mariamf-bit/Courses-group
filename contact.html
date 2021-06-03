@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--link css bta3 al  MD bootstarp online zay -->
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/css/mdb.min.css" rel="stylesheet">
+ 
+<!-- دةعلشان ادعم اللغه العربيبه في الموقع -->    
+   <meta charset="UTF-8" >
+        <!--دة علشان ادعم جميع الاجهزه يفتح علي كل الاجهزه لو مكتبتهاش مش هيدعم جميع الاجهزه حتي لو كاتبه كل الاكواد-->
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+       <!--الاسم اللي هيظهر فوق في url-->
+        <title>Contact Us</title>
+        <!--هنا انا بحط صوره جنب الاسم اللي بيظهر في url-->
+        <link rel="icon" href="data:image/png;base64,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">
+    </head>
+    <body> 
+       
+        <!-- 3lashan azhr al navbar-->
+
+        <!--  علشان اقدر اغير الالوانstyle="background-color: brown !important;"  علشان اجبر al html انه يستخدم هذة الخاصيه بدل خاصيه al bootstrap-->
+        <nav style="background:#1c2a48 !important;" class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+       <!-- Just an image  هيظهر صوره جنب الnavbar-->
+          <a class="navbar-brand" href="#">
+         <img src="img/mariam.jpeg" width="30" height="30" alt="" loading="lazy">
+         </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div style="justify-content: flex-start;" class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="testbootstrap.html">HomePage <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     Coruses
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="https://www.youtube.com/watch?v=Wn3bVMLYHhs&list=PLMTdZ61eBnyrnapIyOphXAkIcR5DDOGkz">HTML</a>
+                      <a class="dropdown-item" href="https://www.youtube.com/watch?v=eN8JBvxdwME&list=PLMTdZ61eBnyoxjc9Prw0uhwgp6YZ2-_sg">CSS</a>
+                      <a class="dropdown-item" href="https://www.youtube.com/watch?v=g6tuPUqc3ew&list=PLMTdZ61eBnyp1nMM8mGRzpwuu6FNxFy0D">JAVASCRIPT</a>
+                    </div>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+        
+              </ul>
+            </div>
+            
+          </nav> 
+
+          <main>
+           
+            <!-- Jumbotron -->
+<div class="jumbotron text-center">
+
+    <!-- Title -->
+    <h4 class="card-title h4 pb-2"><strong>Contact US</strong></h4>
+  
+    <!-- determine my location -->
+    <div class="view overlay my-4">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13803.280250615173!2d31.321263621794788!3d30.127961968612777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145815b60a8beef1%3A0x50ead0a80b09aff2!2sAin%20Shams%2C%20Ain%20Shams%20Sharkeya%2C%20Ein%20Shams%2C%20Cairo%20Governorate!5e0!3m2!1sen!2seg!4v1592200528626!5m2!1sen!2seg"   
+        style="max-width: 600px; width: 100%;"
+        frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      <a href="#">-
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+  
+    <h5 class="indigo-text h5 mb-4">Contact Information</h5>
+    <p class="card-text">phone number:01226830387</p>
+    <p class="card-text">country: Cario</p>
+    
+    <!--social media-->
+    <article>
+        <div class="col-md-12 py-5">
+            <div class="mb-5 flex-center">
+        <!--facebook-->
+                <a href="https://www.facebook.com/mariam.fayek.52">
+                <i class="fab fa-facebook-f fa-fw blue-text"></i>
+                </a>
+              <!--whatsapp-->
+             <a>
+            <i class="fab fa-whatsapp-square fa-fw green-text"></i>
+            </a> 
+              <!--youtube-->
+         <a href="https://www.youtube.com/channel/UCBNZ0VoN2u_4NT8kbmGgUzQ">
+            <i class="fab fa-youtube fa-fw red-text"></i>
+        </a>
+            </div>
+          </div>
+     
+    </article>
+    
+
+  
+  </div>
+  <!-- Jumbotron -->
+
+          </main>
+          
+         
+          <!-- Footer -->
+<footer style="background:darkslateblue !important;" class="page-footer font-small mdb-color darken-3 pt-4">
+
+    <!-- Footer Elements -->
+    <div class="container">
+  
+      <!--Grid row-->
+      <div class="row d-flex justify-content-center">
+  
+        <!--Grid column-->
+        <div class="col-md-6">
+  
+          <!-- Video -->
+          <div class="embed-responsive embed-responsive-16by9 mb-4">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Sfhsw8RieCg"
+              allowfullscreen></iframe>
+          </div>
+  
+        </div>
+        <!--Grid column-->
+  
+      </div>
+      <!--Grid row-->
+  
+    </div>
+    <!-- Footer Elements -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="https://getbootstrap.com"> Bootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+
+
+
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/js/mdb.min.js"></script>
+</body>
+        
+        
+       
+</html>
